@@ -1,0 +1,117 @@
+---
+title: " "
+subtitle: " "
+author: " "
+institute: ""
+date: " "
+output:
+  xaringan::moon_reader:
+    seal: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#295982",        # gris ??   
+  secondary_color = "#6FABD0",      # amarillo
+  inverse_header_color = "#D7F0E9"  # blanco
+)
+```
+
+class: inverse, center, middle
+background-image: url(img/p1.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+#  Introducción a la calidad de la información
+### Seminario Análisis de tendencia para métodos cualitativos y cuantitativos
+### Pontificia Universidad Javeriana Cali
+### 2023
+
+---
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# diapositiva
+
+### centrada
+
+### al medio
+# 
+
+
+---
+class: inverse 
+background-image: url(img/p4.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# Inversa
+## centro
+### al medio
+
+---
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+# Título 
+
+
+
+--
+class: center, middle
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+--
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# Título
+
+
+---
+# Tablas
+
+
+
+---
+
+
+---
+class: inverse, center, middle
+background-image: url(img/p1.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+# **Gracias!**
+
+
+
