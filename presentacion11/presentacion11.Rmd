@@ -50,7 +50,6 @@ background-position: center
 ### 2023
 
 ---
-background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
@@ -220,6 +219,7 @@ background-position: center
 * Determinar los principales factores que han incidido en el aumento de la violencia en Colombia
 * Identificar las principales causas de homicidios en Cali
 * Establecer los principales factores que inciden en la elección de la carrera universitaria
+* ...
 
 --
 
@@ -279,7 +279,7 @@ Los valores son categorías no comparables, sin presencia de orden jerárquico d
 * Profesión (ingeniero, arquitecto, químico, médico, administrador....)
 * Nacionalidad ( colombiano, venezolano, ecuatoriano....)
 * Grupo sanguíneo (A, B, AB, O)
-
+* ...
 --
 
 <br/><br/>
@@ -333,16 +333,23 @@ orresponde a valores numéricos, dentro de los cuales solo tiene sentido la dife
   * Kelvin $K$, Creada por William Thompson Kelvin (1848), en la que propone una transformación de la escala Celsius hasta un valor  hipotético en el que hay ausencia de calor.
   
   * Fahrenheit $^{\circ}F$  Escala propuesta Gabriel Daniel Fahrenheit (1724), proponiendo una modificación a la escala Celsius
-  
+--
+<br/>
+
+T = 0 $^{\circ} C$
+* K = x $^{\circ}C$ + 273.15   = 273.15 $^{\circ}F$
+* F = x $^{\circ}C$ \times 9/5+ 32  = 32 $^{\circ}F$
+
 ---
 
-En ocasiones variables de tipo cualitativo no observables de manera directa como :
+En ocasiones variables de tipo **cualitativo** no observables de manera directa como :
 
-+ Clima laboral
-+ Estrés
-+ Inteligencia
-+ Nivel de desempeño
-+ Calidad
+* Clima laboral
+* Estrés
+* Inteligencia
+* Nivel de desempeño
+* Calidad
+* ...
 
 Con frecuencia a las variables anteriores se les llama variables latentes debido a que su medición no es directa, sino que se realiza a través de preguntas que se recogen en un instrumento en muchos casos agrupados por factores. Cada respuesta en las preguntas tiene un valor o puntaje que es sumado y determina los niveles de la variable.  Los valores dados  a  las respuestas pueden cambiar de instrumento a instrumento, pues existen escalas con 3 valores, otras con 5, 7 que que pueden representar una escala ordinal. 
 
@@ -373,7 +380,7 @@ Corresponde a valores  numéricos, para los cuales además de las diferencias ta
 * Peso de un paciente
 * Talla de un niño recien nacido
 * Edad de una persona al morir
-
+* ...
 --
 
 <br/><br/>
@@ -386,12 +393,27 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# 
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
+# Diseño del estudio
+
+Después de tener claro los tres puntos anteriores, es necesario diseñar y prever todas las actividades necesarias para la recolección de la información requerida para el cumplimiento de los objetivos propuestos. Esta parte comprende definir:
+		
++ Tipo de estudio
++ Tipo de muestreo (en caso de requerirlo)
++ Tamaño de la muestra
+
+--
+### Tipo de estudio
+
+* Experimental
+  * Experimento puro
+  * Cuasi-experimento
+* No experimental
+  * Transeccional 
+  * Exploratorio
+    * Descriptivo de uno o más grupos
+    * Longitudinal
+    * De tendencia
+    * De evolución de grupo
 
 
 ---
@@ -400,6 +422,81 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
+# Experimental
+
+## Experimento puro
+
+## Cuasi-experimento
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# No experimental
+
+## Transeccional
+
+
+## Exploratorio
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# Algunos conceptos básicos
+
+## Población - Censo - Parámetro
+
+* **Población**: Conjunto de elementos acerca de los cuales deseamos realizar alguna inferencia.
+* **Censo**: Estudio que incluye todos los elementos de una población. 
+
+## Muestra  -  Muestreo -  Estimador
+
+* **Muestra**: Subconjunto de elementos una población, elegidos de un marco muestral. 
+* **Muestreo**: Forma de selección de una parte de la población. 
+* **Marco muestral**: Listado completo de unidades que conforman una población. 
+* **Unidad de muestreo** Persona  u  objeto  de  la cual  se toma  la  información. 
+--
+
+<br/>
+
+* **Tipo de muestreo**
+  * Muestreo probabilistico
+  * Muestreo no probabilistico
+  
+  
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# Tipo de muestreo
+
+* Muestreo probabilística
+  * Muestreo aleatorio simple 
+  * Muestreo aleatorio estratificado
+  * Muestreo aleatorio por conglomerados
+  * Muestreo sistemático
+  * Muestreo compuestos
+
+<br/>
+
+* Muestreo no  probabilística
+  * Muestreo por conveniencia
+	* Muestreo por juicio
+	* Muestreo por cuotas
+	*  Muestreo bola de nieve
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
 
 
 ---
@@ -408,12 +505,155 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
+.pull-left[
+
+## 
+
+
+
+]
+
+.pull-right[
+
+
+## 
+]
 ---
 class: 
 background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# Recolección de la información
+
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# Procesamiento de la información
 
 
 
@@ -430,6 +670,14 @@ background-position: center
 
 
 # **Gracias!**
+
+
+
+---
+class: inverse, center, middle
+background-image: url(img/p1.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
 
 
 
