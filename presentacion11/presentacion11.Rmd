@@ -106,7 +106,7 @@ background-position: center
 
 # **Introducción a la calidad de la información**
 
-## **Que es CALIDAD** 
+## **Qué es CALIDAD** 
 
 "La calidad es la conformidad con los requisitos" <br/>
 Philip B. Crosby
@@ -121,7 +121,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-## **Que es CALIDAD DE LA INFORMACIÓN**
+## **Qué es CALIDAD DE LA INFORMACIÓN**
 
 Es la medida en que la información es **precisa**, **relevante**, **confiable**, **oportuna** y **útil** para su propósito previsto. En el contexto de la gestión de datos y la toma de decisiones, la calidad de la información es esencial para asegurar que la información proporcionada sea valiosa y efectiva para quienes la utilizan.
 
@@ -170,7 +170,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# **Definición del problema - continuación*
+# **Definición del problema - continuación**
 
 ### Ejemplos : 
 
