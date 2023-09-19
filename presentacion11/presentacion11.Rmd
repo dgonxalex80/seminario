@@ -608,8 +608,6 @@ Esta etapa comprende la construcción de la **base de datos** para que sea proce
 + Eviews
 + **R / Rstudio** 
 ---
-
----
 class: inverse, center, middle
 background-image: url(img/p1.png)  /* imagen de fondo */
 background-size: 100% 100%
@@ -621,7 +619,7 @@ background-position: center
 
 
 ---
-class: inverse, center, middle
+class: center, middle
 background-size: 100% 100%
 background-position: center
 
