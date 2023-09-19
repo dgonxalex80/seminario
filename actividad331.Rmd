@@ -1,0 +1,27 @@
+---
+title: "actividad332"
+author: "Daniel Gonzalez"
+date: "2023-09-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+```
+
+## R Markdown
+```{r, echo=FALSE}
+n=1000
+xy= data.frame(x=rnorm(n,2,0.1),
+               y=rnorm(n,3,0.2))
+A=apply(xy,1,prod)
+cat("media del área = ", mean(A))
+cat("varianza del área = ", var(A))
+```
+
+```{r, echo=FALSE}
+probB = sum(as.numeric(A>5.9 & A<6.1))/n
+cat("P(5.9 < A < 6.1) = ", probB)
+
+```
+

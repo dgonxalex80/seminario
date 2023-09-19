@@ -19,13 +19,13 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
-  fig.width=9, fig.height=3.5, fig.retina=3,
-  out.width = "100%",
-  cache = FALSE,
-  echo = TRUE,
-  message = FALSE, 
-  warning = FALSE,
-  hiline = TRUE
+fig.width=9, fig.height=3.5, fig.retina=3,
+out.width = "100%",
+cache = FALSE,
+echo = TRUE,
+message = FALSE, 
+warning = FALSE,
+hiline = TRUE
 )
 library(knitr)
 
@@ -34,9 +34,9 @@ library(knitr)
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo_accent(
-  primary_color = "#295982",        # gris ??   
-  secondary_color = "#6FABD0",      # amarillo
-  inverse_header_color = "#D7F0E9"  # blanco
+primary_color = "#295982",        # gris ??   
+secondary_color = "#6FABD0",      # amarillo
+inverse_header_color = "#D7F0E9"  # blanco
 )
 ```
 
@@ -53,7 +53,7 @@ background-position: center
 background-size: 100% 100%
 background-position: center
 
-# Profesores a cargo del seminario
+# **Profesores a cargo del seminario**
 
 
 ![](img/profesores.png)
@@ -65,7 +65,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Contenido
+# **Contenido**
 
 ![](img/tematica.png) 
 ---
@@ -73,11 +73,12 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Metodología Estadística
-## Unidad 1
+# **Metodología Estadística**
+## **Unidad 1**
 
 .pull-left[
-### Temática
+
+### **Temática**
 
 *   Introducción a la calidad de la información
 *   Fuentes de información
@@ -87,13 +88,13 @@ background-position: center
 
 .pull-right[
 
-### Metodología Estadística
+### **Metodología Estadística**
 
 1.  Definición del problema
 1.  Definición de los objetivos
 1.  Definición de las variables de interés
 1.  Diseño del experimento
-1.  Reccolección de la información
+1.  Recolección de la información
 1.  Procesamiento de datos
 ]
 
@@ -103,9 +104,9 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Introducción a la calidad de la información
+# **Introducción a la calidad de la información**
 
-## Que es CALIDAD 
+## **Que es CALIDAD** 
 
 "La calidad es la conformidad con los requisitos" <br/>
 Philip B. Crosby
@@ -120,14 +121,14 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-## Que es CALIDAD DE LA INFORMACIÓN 
+## **Que es CALIDAD DE LA INFORMACIÓN**
 
 Es la medida en que la información es **precisa**, **relevante**, **confiable**, **oportuna** y **útil** para su propósito previsto. En el contexto de la gestión de datos y la toma de decisiones, la calidad de la información es esencial para asegurar que la información proporcionada sea valiosa y efectiva para quienes la utilizan.
 
 <br/><br/>
 
 --
-Es **necesario conocer que es lo que hacemos** para determinar si los datos cumplen con nuestros propositos:
+Es **necesario conocer que es lo que hacemos** para determinar si los datos cumplen con nuestros propósitos:
 
 <br/><br/>
 --
@@ -139,7 +140,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Definición del problema
+# **Definición del problema**
 
 El planteamiento del problema puede tener varios orígenes, entre los cuales podemos mencionar: 
 
@@ -169,7 +170,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Definición del problema - continuación
+# **Definición del problema - continuación*
 
 ### Ejemplos : 
 
@@ -180,14 +181,14 @@ background-position: center
 
 --
 
-### Plantea un problema
+### **Plantea un problema**
 
 ---
 class: 
 background-size: 100% 100%
 background-position: center
 
-# Definición de los objetivos
+# **Definición de los objetivos**
 
 Al iniciar una investigación uno de los primeros pasos debe ser el definir de la forma más  **clara**  el  propósito u objetivo principal del estudio. Estos deben de estar **orientados a la solución del problema**
 
@@ -212,7 +213,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Definición del objetivos - continuación
+# **Definición del objetivos - continuación**
 
 ### Ejemplos : 
 
@@ -225,7 +226,7 @@ background-position: center
 
 <br/><br/>
 
-### Plantea un objetivo
+### **Plantea un objetivo**
 
 ---
 class: 
@@ -233,7 +234,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Definición de las variables de interés
+# **Definición de las variables de interés**
 
 ![](img/pro_obj_var.png)
 
@@ -242,7 +243,7 @@ background-position: center
 
 <br/><br/>
 
- ## Variables cualitativas  $\hspace{5cm}$ Variables cuantitativas
+## *Variables cualitativas**  $\hspace{5cm}$ **Variables cuantitativas**
 
 
 ---
@@ -258,7 +259,7 @@ background-position: center
 <br/><br/>
 
 Las variables se pueden clasificar según :
- 
+
 * **origen** : aleatorias, no aleatorias
 * **su naturaleza** : cualitativas, cuantitativas (discretas, continuas)
 * **su relación con otras variables**  : dependientes, independientes
@@ -270,7 +271,8 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Variables cualitativas - escala nominal
+# **Variables cualitativas - escala nomina*l**
+
 Los valores son categorías no comparables, sin presencia de orden jerárquico distinto al alfabético entre ellos. Al comparar dos valores solo es posible afirmar que son iguales o que son diferentes  (=, $\neq$).
 
 #### Ejemplo:
@@ -284,7 +286,7 @@ Los valores son categorías no comparables, sin presencia de orden jerárquico d
 
 <br/><br/>
 
-### Plantea una variable cualitativa en escala nominal
+### **Plantea una variable cualitativa en escala nominal**
 
 
 
@@ -295,24 +297,24 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Variables cualitativas - escala ordinal
+# **Variables cualitativas - escala ordinal**
 
-Los valores son categorías comparables, en el sentido de que se pueden ordenar de menor a mayor o a la inverda. (=, $\neq$, <, >) cualitativa.
+Los valores son categorías comparables, en el sentido de que se pueden ordenar de menor a mayor o a la inversa. (=, $\neq$, <, >) cualitativa.
 
 #### Ejemplo
 
 * Considera que el servicio que acaba de recibir es:
-  * $\square$  Excelente,
-  * $\square$  Muy bueno,
-  * $\square$  Bueno, 
-  * $\square$  Regular,
-  * $\square$  Muy regular,
-  * $\square$  Pésimo  
+* $\square$  Excelente,
+* $\square$  Muy bueno,
+* $\square$  Bueno, 
+* $\square$  Regular,
+* $\square$  Muy regular,
+* $\square$  Pésimo  
 --
 
 <br/><br/>
 
-### Plantea una variable cualitativa en escala ordinal
+### **Plantea una variable cualitativa en escala ordinal**
 
 ---
 class: 
@@ -320,19 +322,19 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Variables cuantitativas - escala de intervalo
+# **Variables cuantitativas - escala de intervalo**
 
 orresponde a valores numéricos, dentro de los cuales solo tiene sentido la diferencia entre dos de sus valores. (=, $\neq$, < , > , -)
 
 #### Ejemplo
 
-**Temperatura**  La variable se puede medir en diferentes tipos de escalas :
+ **Temperatura**  La variable se puede medir en diferentes tipos de escalas :
 
-  * Celsius $^{\circ} C$, (La escala Celsius fue creada  Andrés Celsius (1742) . Esta escala  tiene como referencia los puntos de congelación y ebullición del agua, límites que divide en 100 partes iguales
-  
-  * Kelvin $K$, Creada por William Thompson Kelvin (1848), en la que propone una transformación de la escala Celsius hasta un valor  hipotético en el que hay ausencia de calor.
-  
-  * Fahrenheit $^{\circ}F$  Escala propuesta Gabriel Daniel Fahrenheit (1724), proponiendo una modificación a la escala Celsius
+* Celsius $^{\circ} C$, (La escala Celsius fue creada  Andrés Celsius (1742) . Esta escala  tiene como referencia los puntos de congelación y ebullición del agua, límites que divide en 100 partes iguales
+
+* Kelvin $K$, Creada por William Thompson Kelvin (1848), en la que propone una transformación de la escala Celsius hasta un valor  hipotético en el que hay ausencia de calor.
+
+* Fahrenheit $^{\circ}F$  Escala propuesta Gabriel Daniel Fahrenheit (1724), proponiendo una modificación a la escala Celsius
 --
 <br/>
 
@@ -355,10 +357,11 @@ Con frecuencia a las variables anteriores se les llama variables latentes debido
 
 A esta transformación numérica (suma de los puntajes obtenidos al totalizar los puntajes obtenidos) se conoce como **operacionalización** a escala de intervalo de una variable cualitativa.  
 
+--
 
 <br/><br/>
 
-### Plantea una variable cuantitativa en escala intervalo
+### **Plantea una variable cuantitativa en escala intervalo**
 
 
 
@@ -368,7 +371,7 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Variables cuantitativas - escala de razón
+# **Variables cuantitativas - escala de razón**
 
 Corresponde a valores  numéricos, para los cuales además de las diferencias también tiene sentido la razón de dos de sus valores. (=, $\neq$, < , > , -, \)
 
@@ -376,16 +379,16 @@ Corresponde a valores  numéricos, para los cuales además de las diferencias ta
 #### Ejemplo
 
 * Ingresos mensuales de una persona
-* Cantidad de calorias que consume una persona diariamente
+* Cantidad de calorías que consume una persona diariamente
 * Peso de un paciente
-* Talla de un niño recien nacido
+* Talla de un niño recién nacido
 * Edad de una persona al morir
 * ...
 --
 
 <br/><br/>
 
-### Plantea una variable cuantitativa en escala razón
+### **Plantea una variable cuantitativa en escala razón**
 
 ---
 class: 
@@ -393,27 +396,29 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Diseño del estudio
+# **Diseño del estudio**
 
 Después de tener claro los tres puntos anteriores, es necesario diseñar y prever todas las actividades necesarias para la recolección de la información requerida para el cumplimiento de los objetivos propuestos. Esta parte comprende definir:
-		
-+ Tipo de estudio
-+ Tipo de muestreo (en caso de requerirlo)
-+ Tamaño de la muestra
 
---
-### Tipo de estudio
+* Tipo de estudio
+* Tipo de muestreo (en caso de requerirlo)
+* Tamaño de la muestra
+
+---
+
+# **Tipo de estudio**
 
 * Experimental
   * Experimento puro
   * Cuasi-experimento
+
 * No experimental
   * Transeccional 
   * Exploratorio
-    * Descriptivo de uno o más grupos
-    * Longitudinal
-    * De tendencia
-    * De evolución de grupo
+  * Descriptivo de uno o más grupos
+  * Longitudinal
+  * De tendencia
+  * De evolución de grupo
 
 
 ---
@@ -422,24 +427,20 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Experimental
+# **Experimental**
 
-## Experimento puro
+## **Experimento puro**
 
-## Cuasi-experimento
+Tambien llamado experimento controlado, es el tipo de experimento donde se manipulan (controlan) todas las variables excepto la variable objeto de estudio.
 
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
+El objetivo principal es aislar las variables independientes para obtener su efecto sobre una variable dependiente, de tal forma que se pueda medir su relación causal.
 
-# No experimental
-
-## Transeccional
+Se utiliza grupo control, se emplea aleatorización para asignación de niveles - Por lo general se desarrolla en laboratorios
 
 
-## Exploratorio
+## **Cuasi-experimento**
+
+Semejante al anterior, pero debido a restricciones éticas no se pueden hacer asignaciones aleatorias a los grupos experimentales y de control. Mantiene los grupos de control y experimental para medir efecto de causalidad
 
 ---
 class: 
@@ -447,220 +448,166 @@ background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Algunos conceptos básicos
+# **No experimental**
 
-## Población - Censo - Parámetro
+## **De corte transversal**
+
+Se recopilan datos de una población en un solo punto en el tiempo para examinar las relaciones entre variables en ese momento.
+
+
+## **Correlacionales**
+
+Evalúan la relación entre dos o más variables sin intervenir en ninguna de ellas. Estos estudios pueden revelar asociaciones, pero no establecen causalidad.
+
+
+## **Exploratorio** 
+
+Su objetivo principal es explorar, descubrir y generar ideas preliminares o hipótesis sobre un tema o fenómeno específico. Estos estudios suelen realizarse al comienzo de un proceso de investigación más amplio y pueden ayudar a definir preguntas de investigación más específicas y diseñar investigaciones posteriores.
+
+---
+class: 
+background-image: url(img/p2.png)  /* imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+# **Algunos conceptos básicos**
+
+## **Población - Censo - Parámetro**
 
 * **Población**: Conjunto de elementos acerca de los cuales deseamos realizar alguna inferencia.
 * **Censo**: Estudio que incluye todos los elementos de una población. 
 
-## Muestra  -  Muestreo -  Estimador
+## **Muestra  -  Muestreo -  Estimador**
 
 * **Muestra**: Subconjunto de elementos una población, elegidos de un marco muestral. 
 * **Muestreo**: Forma de selección de una parte de la población. 
 * **Marco muestral**: Listado completo de unidades que conforman una población. 
 * **Unidad de muestreo** Persona  u  objeto  de  la cual  se toma  la  información. 
---
 
 <br/>
 
+--
+
 * **Tipo de muestreo**
-  * Muestreo probabilistico
-  * Muestreo no probabilistico
-  
-  
+* Muestreo probabilístico
+* Muestreo no probabilístico
+
+
 ---
 class: 
 background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
-# Tipo de muestreo
+# **Tipo de muestreo**
 
 * Muestreo probabilística
-  * Muestreo aleatorio simple 
-  * Muestreo aleatorio estratificado
-  * Muestreo aleatorio por conglomerados
-  * Muestreo sistemático
-  * Muestreo compuestos
+* Muestreo aleatorio simple 
+* Muestreo aleatorio estratificado
+* Muestreo aleatorio por conglomerados
+* Muestreo sistemático
+* Muestreo compuestos
 
 <br/>
 
 * Muestreo no  probabilística
-  * Muestreo por conveniencia
-	* Muestreo por juicio
-	* Muestreo por cuotas
-	*  Muestreo bola de nieve
+* Muestreo por conveniencia
+* Muestreo por juicio
+* Muestreo por cuotas
+*  Muestreo bola de nieve
 ---
 class: 
 background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
+## **Muestreo Aleatorio Simple**
+
+En este tipo de muestreo se seleccionan los elementos de la población de tal manera que cada elemento tenga igual probabilidad de ser elegido
+
+Para realizarlo se requiere de poseer un marco muestral actualizado y un sistema que permita la escogencia de las unidades de manera aleatoria
+
+---
+
+## **Muestreo Aleatorio Estratificado**
+
+Una muestra estratificada se toma separando los elementos de la población en estratos y en cada uno de ellos por separado se toma una muestra aleatoria simple. 
+
+El supuesto que valida este procedimiento se centra en la varianza al interior de los estratos es menor que la varianza que presentan los individuos al total de la población. Esto permite controlar la  varianza de la variable principal, es decir cambiar una población heterogénea por varias homogéneas
+
+---
+
+## **Muestreo Aleatorio Sistemático**
+
+En este tipo de muestreo se selecciona la muestra mediante la elección de un punto de inicio de manera aleatoria ($r$) dentro de los $k$ primeros números de la población y la muestra queda determinada por la secuencia: $r$, $r+k$, $r+2k$, $r+3k$, ........ hasta completar el tamaño de la muestra requerida.
+
+Para obtener una muestra aleatoria, establecemos de número aleatorio entre $1$ y $k$ y de esta forma quedan determinados los elementos de la muestra.
 
 
 ---
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
 
-.pull-left[
+## **Muestreo Aleatorio por Conglomerados**
 
-## 
+Cuando la población objeto de estudio se encuentra dividida en subpoblaciones mutuamente excluyentes - llamados conglomerados - y bajo el supuesto de que cada uno de ellos representa la población, el muestreo por conglomerados proporciona una buena alternativa para realizar un muestreo. 
 
+En este caso se debe tener una relación de todos los conglomerados que conforman la población y a partir de este listado se realiza un muestreo aleatorio simple de ellos. Al interior del o los conglomerados seleccionados de esta manera se realiza censo o en otras ocasiones muestreo aleatorio simple. 
 
-
-]
-
-.pull-right[
-
-
-## 
-]
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
 
 
 
 ---
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
 
+# **Muestreos no probabilísticos**
 
+## **Muestreo por conveniencia**
 
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
+En este tipo de muestreo la selección de los elementos de la muestra están a criterio del entrevistador, por lo general son seleccionados por estar en el lugar adecuado.
 
+## **Muestreo por juicio**
 
+Forma de muestreo por conveniencia cuyos elementos se seleccionan de manera intencional con base en el juicio del investigador
 
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
+## **Muestreo por cuotas**
 
-
+Muestreo por juicio restringido a dos etapas: <br/>
+Etapa 1: Desarrollo de categorías o cuotas de los elementos de la población (\%) <br/>
+Etapa 2: Los elementos se seleccionan de acuerdo a la conveniencia o el juicio del investigador hasta completar el número establecido para cada subgrupo. <br/>
 
 ---
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
+## **Muestreo bola de nieve**
 
-
+En este método se selecciona inicialmente un grupo de entrevistados. El resto de entrevistados se eligen de acuerdo a información suministrada por los mismos entrevistados -referidos-. Este método permite obtener información rápida y muy fácilmente.
 
 ---
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
 
+# **Recolección de la información**
 
+Esta etapa comprende el trabajo de campo, la cual implica las siguientes actividades:
 
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
+* Construcción o actualización del marco muestral
+* Selección de encuestadores o personas que toman la información
+* Adiestramiento de estas personas  
+* Prueba piloto  (ensayo de los instrumentos de medición)
+* Construcción y  mejoramiento de la  plantilla o instrumento de recolección de los datos
+* Construcción de la base de datos. (Plantilla para captura de datos)
+* Manual de la plantilla o instrumento de recolección de datos
+* Selección de las unidades  que conforman la muestra
+* Selección de las unidades de holgura
+* Coordinación del recibo de la información
 
 ---
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
+# **Procesamiento de la información**
 
+Esta etapa comprende la construcción de la **base de datos** para que sea procesada posteriormente en un paquete estadístico. Entre los más usados están:
 
-
++ SPSS
++ Stata
++ Minitab
++ SAS
++ Statgraphics
++ Eviews
++ **R / Rstudio** 
 ---
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-# Recolección de la información
-
-
----
-class: 
-background-image: url(img/p2.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
-# Procesamiento de la información
-
-
-
-
-
-
-
 
 ---
 class: inverse, center, middle
@@ -675,7 +622,6 @@ background-position: center
 
 ---
 class: inverse, center, middle
-background-image: url(img/p1.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 
