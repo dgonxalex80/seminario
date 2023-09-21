@@ -71,6 +71,10 @@ background-image: url(img/p4.png)  /* imagen de fondo */
 
 ## **Conceptos previos**
 
+![](img/fig3.png)
+
+
+
 ---
 background-image: url(img/p2.png)  /* imagen de fondo */
 background-size: 100% 100%
@@ -91,9 +95,9 @@ esenciales para la toma de decisiones y la investigación,
 
 Existen fuentes de información:
 
-* primarias
-* secundarias
-* terciarias
+* primarias - información recogida en laboratorio
+* secundarias - información contenida en artículos cientificos
+* terciarias - información contenida en libros, manuales y reglamentaciones
 
 ---
 background-image: url(img/p2.png)  /* imagen de fondo */
@@ -157,7 +161,7 @@ background-position: center
 
 ## **Fuentes de información** 
 
-
+![](img/fig8.png)
 
 
 ---
@@ -169,7 +173,7 @@ background-position: center
 # **Prueba de alcoholemia**
 
 ## **Variables** 
-
+![](img/fig9.png)
 
 ---
 class: inverse
@@ -179,15 +183,8 @@ background-position: center
 # **Prueba de alcoholemia**
 
 ## **Identificación de sesgos y errores**
-
+![](img/fig10.png)
  
-
----
-class: inverse
-background-image: url(img/p4.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
-
 ---
 class: inverse
 background-image: url(img/p4.png)  /* imagen de fondo */
@@ -197,7 +194,7 @@ background-position: center
 # **Como medir para un método de análisis**
 
 ## **Presición**
-
+![](img/fig11.png)
 ---
 class: inverse
 background-image: url(img/p4.png)  /* imagen de fondo */
@@ -205,21 +202,21 @@ background-size: 100% 100%
 background-position: center
 ## **Exactitud**
 
-
+![](img/fig12.png)
 ---
 class: inverse
 background-image: url(img/p4.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 ## **Sensibilidad**
-
+![](img/fig13.png)
 ---
 class: inverse
 background-image: url(img/p4.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
 ## **Especificidad**
-
+![](img/fig14.png)
 
 ---
 class: inverse
@@ -227,19 +224,9 @@ background-image: url(img/p4.png)  /* imagen de fondo */
 background-size: 100% 100%
 background-position: center
  # **Implementación de un sistema de gestión de la calidad**
+![](img/fig15.png)
 
 
-
----
-class: inverse
-background-image: url(img/p4.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
----
-class: inverse
-background-image: url(img/p4.png)  /* imagen de fondo */
-background-size: 100% 100%
-background-position: center
 
 ---
 class: inverse, center, middle
