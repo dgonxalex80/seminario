@@ -6,6 +6,6 @@ remotes::install_github("rstudio/pagedown")
 output: pagedown::html_paged
 ---
   
-pagedown::chrome_print("presentacion11/presentacion11.html", 
-                       "presentacion11/presentacion11.pdf")
+pagedown::chrome_print("presentacion12/presentacion12.html", 
+                       "presentacion12/presentacion12.pdf")
 
